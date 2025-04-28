@@ -1,2 +1,2 @@
-# Clima Panama (@pty_agua_clima)
-  Es una iniciativa para difundir la climatologia de Panama para fines educativos y profesionales con el objetivo de formetar el conocimiento sobre climatologia a traves del territorio como es el caso de las variables climatica tales como precipitation y temperature del aire (2m)
+# Clima y Agua Panama (@pty_agua_clima)
+Es una iniciativa destinada a difundir información climatológica e hidrlogica de Panamá con fines educativos y profesionales, con el objetivo de fomentar el conocimiento sobre el clima y la hidrologia a lo largo del territorio nacional. La informacion presentada a traves de mapas brinda una perspectiva del comportamiento temporal y espacial de Panama a una escala mensual de variables como por ejemplo (hasta la fecha): precipitacion y temperatura del aire (2 m). A continuacion se presenta una descripcion de la informacion  mensual como guia para su interpretacion. 
