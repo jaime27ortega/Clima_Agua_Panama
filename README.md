@@ -1,11 +1,11 @@
 # Clima y Agua Panama (IG: pty_agua_clima)
 
 ## Generales
-Es una iniciativa destinada a difundir información climatológica e hidrlogica de Panamá con fines educativos y profesionales. La informacion presentada a traves de mapas brinda una perspectiva del comportamiento temporal y espacial de Panama a una escala mensual de variables como precipitacion y temperatura del aire (2 m). CHRIPs
-A continuacion se detalla una descripcion de la informacion  mensual presentada como guia para su interpretacion. 
+Es una iniciativa destinada a difundir información climatológica e hidrlogica de Panamá con fines educativos y profesionales. La informacion presentada a traves de mapas brinda una perspectiva del comportamiento temporal y espacial de Panama a una escala mensual de variables como precipitacion y temperatura del aire (2 m). La informacion utilizada es administrada y generada por el Climate Hazards Center, Department of Geography, University of California Santa Barbara. Este proyecto es financiado en colaboracion por las agencias La Red de Sistemas de Alerta Temprana sobre Hambrunas (en ingles FEWS NET) de la Agencia de los Estados Unidos para el Desarrollo Internacional (USAID) y el Centro de Observación y Ciencia de los Recursos Terrestres del Servicio Geológico de los Estados Unidos (en ingles USGS EROS). A continuacion se detalla una descripcion de la informacion mensual presentada como guia para su interpretacion:
 
 ## Precipitacion 
-La variable climatica precipitacion/lluvia (mm) es presentada en 6 graficos. Un resumen de cada mapa y grafico con sus respectivos valores y descripcion es presentado un PDF ("Report_Mes_Año") para un uso mas accesible: 
+La variable climatica precipitacion/lluvia (mm) es producto de la combinacion de informacion satelital (Observaciones infrarrojas de duración de nubes frías, en ingles CCD) y estaciones pluviometricas disponibles atraves del globo (60°N-60°S, 180°W-180°E) con una resolucion final de 0.05 grados, que abarca desde 1981 hasta la actualidad. La estimacion de precipitacion terrestres están disponibles en intervalos que van desde cada cinco días (pentadas). Cada mapa y grafico con sus respectivos valores y descripcion es presentado en un PDF ("Report_Mes_Año") para un uso mas accesible. Acontinuacion se detalla cada componente generado para la precipitacion:
+
 - (a) Precipitation acumnulada mensual del mes de analisis ("Sum_Ppt_Mes_Año"): total de precipitation registrado en el mes de interes, 
 - (b) Precipitation acumnulada mensual de la normal climatica (NC, "Normal_Ppt_Mes_Año"): total de precipitation registrado en el periodo 1990-2020 para el mes de interes.
 - (c) Diferencia de precipitation mensual ("Diff_Ppt_Mes_Año"): diferencia entre el acumulado mensual y la normal climatica para el mes de interes.
