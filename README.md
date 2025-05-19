@@ -17,8 +17,9 @@ La variable climatica precipitacion/lluvia (mm) es producto de la combinacion de
 ## Referencia y Datos Utilizada para la Generacion de Mapas
 - Funk, C., Peterson, P., Landsfeld, M. et al. The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. Sci Data 2, 150066 (2015). https://doi.org/10.1038/sdata.2015.66
 - Precipitacion (CHIRPS 3.0): https://data.chc.ucsb.edu/products/CHIRPS/v3.0/pentads/latam/tifs/
-- Temperatura (CHIRTS-ERA5): Tmax-https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmax/tifs/pentads/
-                             Tmin-https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmin/tifs/pentads/
+- Temperatura (CHIRTS-ERA5):
+  Tmax-https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmax/tifs/pentads/
+  Tmin-https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmin/tifs/pentads/
   
 
 
