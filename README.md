@@ -6,18 +6,18 @@ Esta iniciativa tiene como objetivo difundir información climatológica e hidro
 ## Precipitacion 
 La variable climática precipitación/lluvia (mm) es el resultado de la combinación de observaciones satelitales, específicamente imágenes infrarrojas de duración de nubes frías (Cold Cloud Duration, CCD)— con datos provenientes de estaciones pluviométricas disponibles a nivel global (entre 60°N–60°S y 180°W–180°E). Esta información se integra en una grilla con una resolución espacial de 0.05 grados, y está disponible desde 1981 hasta la actualidad. Las estimaciones de precipitación terrestre se presentan en intervalos temporales que van desde pentadas (cada cinco días). Cada conjunto de datos se acompaña de mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **Precipitation_2025**):
 
-- (a) Precipitation acumnulada mensual del mes de analisis (**"Sum_Ppt_Mes_Año"**): total de precipitation registrado en el mes de interes.
-- (b) Precipitation acumnulada mensual de la normal climatica (NC, **"Normal_Ppt_Mes_Año"**): total de precipitation registrado en el periodo 1990-2020 para el mes de interes.
-- (c) Diferencia de precipitation mensual (**"Diff_Ppt_Mes_Año"**): diferencia entre el acumulado mensual y la normal climatica para el mes de interes.
-- (d) Anomalia de precipitacion mensual (**"Anomalia_Mes"**): desviacion (positiva: por arriba-humedo de la NC y negativa: por debajo-seco de la NC) de la diferencia de precipitation en comparacion con la normal climatica (1991-2020).
-- (e) Resumen mensual por provincia y pais (**"Ppt_Summary_A_B@C_D"**): A_B, precipitacion por pentadas (acumulados de5 dias) en el pais y C_D, total de precipitacion acumulada desde el primer mes del año (Enero) hasta el mes de analisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climatica (NC: 1991-2020) para el mismo periodo analisado.
-- (f) Ranking de precipitacion, percentiles (**"Ppt_Rank_Mes_Año"**): comparacion de periodos humedos y secos con rescepto al periodo historico, en este caso 45 años (1981-2025), utilizando percetiles (metodo Weibull para clasificacion de rankings). Clasificacion o pocisiones (rankings) de zonas/regiones basado en sus posicion por arriba (=>)/debajo (<=) del % definido: mas humedo del registro (=> del 99%), 10th mas humedo (=> del 90%), 20th mas humedo (=> del 80%); normal, 35th mas humedo (=> del 65%) y 35th mas seco (<= del 65%); 20th mas seco (<= del 80%), 10th mas seco (<= del 90%), y mas seco del registro (<= del 99%).
+- (a) Precipitacion acumnulada mensual del mes de analisis (**"Sum_Ppt_Mes_Año"**): total de precipitacion registrado en el mes de interes.
+- (b) Precipitacion acumnulada mensual de la normal climatica (NC, **"Normal_Ppt_Mes_Año"**): total de precipitacion registrado en el periodo 1991-2020 para el mes de interes.
+- (c) Diferencia de precipitacion mensual (**"Diff_Ppt_Mes_Año"**): diferencia entre el acumulado mensual y la normal climatica para el mes de interes.
+- (d) Anomalia de precipitacion mensual (**"Anomalia_Mes"**): desviacion (positiva: por arriba-humedo de la NC y negativa: por debajo-seco de la NC) de la diferencia de precipitacion en comparacion con la normal climatica (1991-2020).
+- (e) Resumen mensual por provincia y pais (**"Ppt_Summary_A_B@C_D"**): A_B, precipitacion por pentadas (acumulados de5 dias) en el pais y C_D, total de precipitacion acumulada desde el primer mes del año (Enero) hasta el mes de analisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climatica (NC: 1991-2020) para el mismo periodo analizado.
+- (f) Ranking de precipitacion, percentiles (**"Ppt_Rank_Mes_Año"**): comparacion de periodos humedos y secos con rescepto al periodo historico, en este caso 45 años (1981-2025), utilizando percetiles (metodo Weibull para clasificacion de rankings). Clasificacion o pocisiones (rankings) de zonas/regiones basado en sus posicion por arriba (=>) o por debajo (<=) del % definido: mas humedo del registro (=> del 99%), 10th mas humedo (=> del 90%), 20th mas humedo (=> del 80%); normal, 35th mas humedo (=> del 65%) y 35th mas seco (<= del 65%); 20th mas seco (<= del 80%), 10th mas seco (<= del 90%), y mas seco del registro (<= del 99%).
 
 ## Referencia y Datos Utilizada para la Generacion de Mapas
 - Funk, C., Peterson, P., Landsfeld, M. et al. The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. Sci Data 2, 150066 (2015). https://doi.org/10.1038/sdata.2015.66
 - Precipitacion (CHIRPS 3.0): https://data.chc.ucsb.edu/products/CHIRPS/v3.0/pentads/latam/tifs/
 - Temperatura (CHIRTS-ERA5):
-  - Tmax-https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmax/tifs/pentads/
-  - Tmin-https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmin/tifs/pentads/
+  - Tmax-https: https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmax/tifs/pentads/
+  - Tmin-https: https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmin/tifs/pentads/
 
  
