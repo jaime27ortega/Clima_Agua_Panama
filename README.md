@@ -14,4 +14,12 @@ La variable climatica precipitacion/lluvia (mm) es presentada en 6 graficos. Un 
 - (f) Ranking de precipitacion, percentiles ("Ppt_Rank_Mes_Año"): comparacion de periodos humedos y secos con rescepto al periodo historico, en este caso 45 años (1981-2025), utilizando percetiles (metodo Weibull para clasificacion de rankings). Clasificacion o          pocisiones (rankings) de zonas/regiones basado en sus posicion por arriba (=>)/debajo (<=) del % definido: mas humedo del registro (=> del 99%), 10th mas humedo (=> del 90%), 20th mas humedo (=> del 80%); normal, 35th mas humedo (=> del 65%) y 35th mas seco        (<= del 65%); 20th mas seco (<= del 80%), 10th mas seco (<= del 90%), y mas seco del registro (<= del 99%).
 
 
+## Referencia y Datos Utilizada para la Generacion de Mapas
+- Funk, C., Peterson, P., Landsfeld, M. et al. The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. Sci Data 2, 150066 (2015). https://doi.org/10.1038/sdata.2015.66
+- Precipitacion (CHIRPS 3.0): https://data.chc.ucsb.edu/products/CHIRPS/v3.0/pentads/latam/tifs/
+- Temperatura (CHIRTS-ERA5, Tmax y Tmin): https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmax/tifs/pentads/
+                                          https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmin/tifs/pentads/
+  
+
+
 
