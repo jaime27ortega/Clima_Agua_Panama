@@ -59,7 +59,7 @@ $P_{i} = \frac{m}{n+1}$
 
 Donde:
 
-$P_{i}$ es el percentil correspondiente al valor de precipitación mensual {i}.
+$P_{i}$ es el percentil correspondiente al valor de precipitación mensual ${i}$.
 
 $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precipitación.
 
