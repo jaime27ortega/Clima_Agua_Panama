@@ -31,7 +31,7 @@ $n$ es la número de pentadas completas (usualmente 6 por mes).
 
 - (c) Diferencia de precipitacion mensual ($Ppt_{Diff}$, **"Diff_Ppt_Mes_Año"**): diferencia de precipitacion entre el acumulado mensual y la normal climatica para el mes de interes.
 <p align="center">
-$Ppt_{Diff} = Ppt_{Mes}- Ppt_{NC (1991-2020)}$
+$Ppt_{Diff} = Ppt_{Mes}-Ppt_{NC (1991-2020)}$
 </p>
 
 Donde:
@@ -42,7 +42,7 @@ $Ppt_{NC (1991-2020)}$ es el total promedio de precipitacion registrado en el pe
 
 - (d) Anomalia de precipitacion mensual (Ppt_{Anom}, **"Anomalia_Mes"**): desviacion promedio (positiva: por arriba-humedo de la NC y negativa: por debajo-seco de la NC) de la diferencia de precipitacion $(Ppt_{Diff})$ en comparacion con la normal climatica (1991-2020).
 <p align="center">
-$Ppt_{Anom} = +/- Ppt_{Diff_{Promedio}}$
+$Ppt_{Anom}$ = +/- $Ppt_{Diff_{Promedio}}$
 </p>
 
 Donde:
