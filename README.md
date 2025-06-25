@@ -63,7 +63,7 @@ $P_{i}$ es el percentil correspondiente al valor de precipitación mensual ${i}$
 
 $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precipitación.
 
-$n$: Número total de años del periodo histórico ($n$ = 45).
+$n$ Número total de años del periodo histórico ($n$ = 45).
 
 ## Temperatura
 ![Ave_AirTemp_Tmean_Apr_2025](https://github.com/user-attachments/assets/25df4bc1-d1ef-49ec-9339-5f2b41b94888)
