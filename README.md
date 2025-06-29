@@ -41,7 +41,7 @@ $Ppt_{Mes}$ es el total de precipitacion (mm) registrado en el mes de interes, m
 
 $Ppt_{NC (1991-2020)}$ es el total promedio de precipitacion registrado en el periodo 1991-2020 para el mes de interes, mm.
 
-- (d) Anomalia de precipitacion mensual (Ppt_{Anom}, **"Anomalia_Mes"**): desviacion promedio (positiva: por arriba-humedo de la NC y negativa: por debajo-seco de la NC) de la diferencia de precipitacion $(Ppt_{Diff})$ en comparacion con la normal climatica (1991-2020).
+- (d) Anomalia de precipitacion mensual ($Ppt_{Anom}$, **"Anomalia_Mes"**): desviacion promedio (positiva: por arriba-humedo de la NC y negativa: por debajo-seco de la NC) de la diferencia de precipitacion $(Ppt_{Diff})$ en comparacion con la normal climatica (1991-2020).
 <p align="center">
 $Ppt_{Anom}$ = +/- $Ppt_{Diff_{Promedio}}$
 </p>
