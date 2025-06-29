@@ -5,7 +5,7 @@ Esta iniciativa tiene como objetivo difundir información climatológica e hidro
 
 ## Precipitacion
 ![Sum_Ppt_Apr_2025](https://github.com/user-attachments/assets/30989a4f-55a0-4441-9910-1f7f780ace8c)
-La variable climática precipitación/lluvia (mm) es el resultado de la combinación de observaciones satelitales, específicamente imágenes infrarrojas de duración de nubes frías (Cold Cloud Duration, en ingles CCD)— con datos provenientes de estaciones pluviométricas disponibles a nivel global (entre 60°N–60°S y 180°W–180°E). Esta información se integra en una grilla con una resolución espacial de 0.05° (5.55 km), y está disponible desde 1981 hasta la actualidad (datos disponibles: https://data.chc.ucsb.edu/products/CHIRPS/v3.0/pentads/latam/tifs/). Las estimaciones de precipitación terrestre se presentan en intervalos temporales cada 5 dias (pentadas). Cada conjunto de datos se acompaña con mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **Precipitation_2025**):
+La variable climática precipitación/lluvia (mm) es el resultado de la combinación de observaciones satelitales, específicamente imágenes infrarrojas de duración de nubes frías (Cold Cloud Duration, en ingles CCD)— con datos provenientes de estaciones pluviométricas disponibles a nivel global (entre 60°N–60°S y 180°W–180°E). Esta información se integra en una grilla con una resolución espacial de 0.05° (5.55 km), y está disponible desde 1981 hasta la actualidad. Las estimaciones de precipitación terrestre se presentan en intervalos temporales cada 5 dias (pentadas). Cada conjunto de datos se acompaña con mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **Precipitation_2025**):
 
 - (a) Precipitacion acumnulada mensual del mes de analisis ($Ppt_{Mes}$, **"Sum_Ppt_Mes_Año"**): total de precipitacion (mm) registrado en el mes de interes.
 <p align="center">
@@ -65,11 +65,20 @@ $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precip
 
 $n$ Número total de años del periodo histórico ($n$ = 45).
 
-## Temperatura
+## Temperatura (Tmax y Tmin, 2m de altura)
 ![Ave_AirTemp_Tmean_Apr_2025](https://github.com/user-attachments/assets/25df4bc1-d1ef-49ec-9339-5f2b41b94888)
-La variable climática temperatura (tmax y tmin, °C) es obtenida de la versión 5 (ERA5) del reanálisis atmosferico del Centro Europeo de Pronósticos Meteorológicos de Medio Plazo (ECMWF, por sus siglas en inglés), con una resolucion de orignal de 0.25° (27.8 km). Consequentemente la informacion es procesada y reducida por el Climate Hazards Center a una resolucion de grilla de 0.05° (5.55 km)
+La variable climática temperatura (Tmax y Tmin, °C) es obtenida de la versión 5 (ERA5) del reanálisis atmosferico del Centro Europeo de Pronósticos Meteorológicos de Medio Plazo (ECMWF, por sus siglas en inglés), con una resolucion de orignal de 0.25° (27.8 km). Consequentemente, la informacion es procesada y reducida por el Climate Hazards Center a una resolucion de grilla de 0.05° (5.55 km). El area de cobertura de este producto oscilla entre 60°S–70°N y está disponible desde 1981 hasta la actualidad. Las estimaciones de temperatura se presentan en intervalos temporales cada 5 dias (pentadas). Cada conjunto de datos se acompaña con mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de temperatura (ver carpeta **Temperatura_2025**):
 
-un area de cobertura global entre 60°S–70°N. Esta información se integra en una grilla con una resolución espacial de 0.05 grados (5.55 km), y está disponible desde 1981 hasta la actualidad. Las estimaciones de precipitación terrestre se presentan en intervalos temporales cada 5 dias (pentadas). Cada conjunto de datos se acompaña con mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **Precipitation_2025**):
+- (a) Temperatura promedio mensual (Tprom, Tmax, y Tmin) del mes de analisis ($Temp_{Mes}_{Tprom, Tmax, y Tmin}$, **"Ave_AirTemp_Tmean/Tmax/Tmin_Mes_Año"**): promedio de temperartura (°C) registrado en el mes de interes. Tmax y Tmin: prommedio de maximas y minimas temperaturas en intervalos temporales cada 5 dias. Tprom: temperatura promedio obtenida del promedio de Tmax y Tmin (Tmean = Tmax+Tmin/2)
+<p align="center">
+$Ppt_{Mes} = \sum_{i=1}^{n} Ppt_{p_{i}}$
+</p>
+
+Donde: 
+
+$Ppt_{p_{i}}$ es la precipitacion registrada en la pentada $i$ del mes de interes, mm.
+
+$n$ es la número de pentadas completas (usualmente 6 por mes).
 
 ## Referencia y Datos Utilizada para la Generacion de Mapas
 - Funk, C., Peterson, P., Landsfeld, M. et al. The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. Sci Data 2, 150066 (2015). https://doi.org/10.1038/sdata.2015.66
