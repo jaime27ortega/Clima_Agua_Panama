@@ -50,7 +50,7 @@ Donde:
 
 +/- $Ppt_{Diff_{Promedio}}$ es diferencia entre el acumulado mensual y la normal climatica para el mes de interes, mm.
 
-- (e) Resumen mensual por provincia y pais (**"Ppt_Summary_A_B@C_D"**): A_B, precipitacion por pentadas (acumulado de 5 dias) en el pais y C_D, total de precipitacion acumulado desde el primer mes del año (Enero) hasta el mes de analisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climatica (NC: 1991-2020) para el mismo periodo analizado.
+- (e) Resumen mensual por provincia y pais (**"Ppt_Summary_A_B@C_D"**): A_B, precipitacion por pentadas (acumulado de 5 dias) en el pais, total de precipitacion acumulado en el pais desde el primer mes del año (Enero) hasta el mes de analisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climatica (NC: 1991-2020) para el mismo periodo analizado. C_D, total acumulado de precipitacion por provincia desde el primer mes del año (Enero) hasta el mes de analisis y comparacion del total acumulado de precipitacion por provincia (mes de interes) vs la NC.
 
 - (f) Ranking de precipitacion, percentiles (**"Ppt_Rank_Mes_Año"**): comparacion de periodos humedos y secos con rescepto al periodo historico, en este caso 45 años (1981-2025), utilizando percetiles (metodo Weibull para clasificacion de rankings). Clasificacion o pocisiones (rankings) de zonas/regiones basado en sus posicion por arriba (=>) o por debajo (<=) del % definido: mas humedo del registro (=> del 99%), 10th mas humedo (=> del 90%), 20th mas humedo (=> del 80%); normal, 35th mas humedo (=> del 65%) y 35th mas seco (<= del 65%); 20th mas seco (<= del 80%), 10th mas seco (<= del 90%), y mas seco del registro (<= del 99%).
 
@@ -73,14 +73,40 @@ La variable climática temperatura (Tmax y Tmin, °C) es obtenida de la versión
 
 - (a) Temperatura promedio mensual (Tprom, Tmax, y Tmin) del mes de analisis ($T_{Mes}$, **"Ave_AirTemp_Tmean/Tmax/Tmin_Mes_Año"**): promedio de temperartura (°C) registrado en el mes de interes. Tmax y Tmin: prommedio de maximas y minimas temperaturas en intervalos temporales cada 5 dias. Tprom: temperatura promedio obtenida del promedio de Tmax y Tmin (Tmean = Tmax+Tmin/2)
 <p align="center">
-$Temp_{prom/max/min, Mes} = \frac{1}{n} \sum_{i=1} Temp_{p_{i}}$
+$Temp_{Mes} = \frac{1}{n} \sum_{i=1} Temp_{p_{i}}$
 </p>
 
 Donde: 
 
-$Temp_{p_{i}}$ es la temperatura (Tmax y Tmin) registrada en la pentada $i$ del mes de interes, °C.
+$Temp_{p_{i}}$ es la temperatura (Tprom, Tmax, y Tmin) registrada en la pentada $i$ del mes de interes, °C.
 
 $n$ es la número de pentadas completas (usualmente 6 por mes).
+
+- (b) Anomalia de temperatura mensual ($Temp_{Anom}$, **"Anomalia_Tmean/Tmax/Tmin_Mes"**): desviacion promedio (positiva: por arriba-frio de la NC y negativa: por debajo-calido de la NC) de la diferencia de temperature $(Ppt_{Diff})$ en comparacion con la normal climatica (1991-2020).
+<p align="center">
+$Temp_{Anom}$ = +/- $Temp_{Diff_{Promedio}}$
+</p>
+
+Donde:
+
++/- $Temp_{Diff_{Promedio}}$ es diferencia entre la temperatura (Tprom, Tmax, y Tmin) mensual y la normal climatica para el mes de interes, °C.
+
+- (c) Resumen mensual por provincia y pais (**"AirTemp_Summary_A_B@C_D_Mes_Año"**): A_B, temperatura promedio por pentadas en el pais (Tprom, Tmax, y Tmin), linea negra representa el promecio movil (3 pentadas). C_D, temperatura (Tprom) promedio mensual por provincia y temperatura promedio mensual vs NC (normal climata: 1991-2020) para el mes analizado.
+
+- (d) Ranking de temperaturas, percentiles (**"AirTemp_Tmean_Rank_Mes_Año"**): comparacion de periodos frios y calidos con rescepto al periodo historico, en este caso 45 años (1981-2025), utilizando percetiles (metodo Weibull para clasificacion de rankings). Clasificacion o pocisiones (rankings) de zonas/regiones basado en sus posicion por arriba (=>) o por debajo (<=) del % definido: mas frio del registro (=> del 99%), 10th mas frio (=> del 90%), 20th mas frio (=> del 80%); normal, 35th mas frio (=> del 65%) y 35th mas calido (<= del 65%); 20th mas calido (<= del 80%), 10th mas calido (<= del 90%), y mas calido del registro (<= del 99%).
+
+
+<p align="center">
+$Temp_{i} = \frac{m}{n+1}$
+</p>
+
+Donde:
+
+$Temp_{i}$ es el percentil correspondiente al valor de temperatura (Tprom) promedio mensual ${i}$.
+
+$m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor temperatura.
+
+$n$ Número total de años del periodo histórico ($n$ = 45).
 
 ## Referencia y Datos Utilizada para la Generacion de Mapas
 - Funk, C., Peterson, P., Landsfeld, M. et al. The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. Sci Data 2, 150066 (2015). https://doi.org/10.1038/sdata.2015.66
