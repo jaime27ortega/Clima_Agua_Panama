@@ -87,7 +87,7 @@ $Temp_{p_{i}}$ es la temperatura (Tprom, Tmáx y Tmín) registrada en la pentada
 
 $n$ es el número de pentadas completas (usualmente 6 por mes).
 
-- (b) Anomalía de temperatura mensual ($Temp_{Anom}$, **"Anomalia_Tmean/Tmax/Tmin_Mes"**): desviación promedio (positiva: por arriba — frío respecto a la NC, y negativa: por debajo — cálido respecto a la NC) de la diferencia de temperatura ($Ppt_{Diff}$) en comparación con la normal climática (1991–2020).
+- (b) Anomalía de temperatura mensual ($Temp_{Anom}$, **"Anomalia_Tprom/Tmax/Tmin_Mes"**): desviación promedio (positiva: por arriba — frío respecto a la NC, y negativa: por debajo — cálido respecto a la NC) de la diferencia de temperatura ($Ppt_{Diff}$) en comparación con la normal climática (1991–2020).
 <p align="center">
 $Temp_{Anom}$ = +/- $Temp_{Diff_{Promedio}}$
 </p>
