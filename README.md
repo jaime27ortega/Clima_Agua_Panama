@@ -3,7 +3,7 @@
 ## Table of Contents
 * [Generales](#Generales)
 * [Precipitación](#Precipitación)
-* [Temperatura](#Temperatura-(Tmax-y-Tmin-2m-de-altura))
+* [Temperatura (Tmax y Tmin, 2m de altura)](#Temperatura-(Tmax-y-Tmin,-2m-de-altura))
 * [Referencia y Datos Utilizada para la Generacion de Mapas](#Referencia-y-Datos-Utilizada-para-la-Generacion-de-Mapas)
   
 ## Generales
