@@ -112,6 +112,7 @@ $n$ Número total de años del periodo histórico ($n$ = 45).
 
 ## Referencia y Datos Utilizada para la Generacion de Mapas
 - Funk, C., Peterson, P., Landsfeld, M. et al. The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. Sci Data 2, 150066 (2015). https://doi.org/10.1038/sdata.2015.66
+- Verdin, A., Funk, C., Peterson, P. et al. Development and validation of the CHIRTS-daily quasi-global high-resolution daily temperature data set. Sci Data 7, 303 (2020). https://doi.org/10.1038/s41597-020-00643-7
 - Precipitacion (CHIRPS 3.0): https://data.chc.ucsb.edu/products/CHIRPS/v3.0/pentads/latam/tifs/
 - Temperatura (CHIRTS-ERA5):
   - Tmax-https: https://data.chc.ucsb.edu/experimental/CHIRTS-ERA5/tmax/tifs/pentads/
