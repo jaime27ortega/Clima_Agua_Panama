@@ -1,10 +1,10 @@
 # Clima y Agua Panama (IG: pty_agua_clima)
 
 ## Table of Contents
-* [Generales](##Generales)
-* [Precipitación](##Precipitación)
-* [Temperatura](##Temperatura)
-* [Referencias](##Referencia y Datos Utilizada para la Generacion de Mapas)
+* [Generales](##-Generales)
+* [Precipitación](##-Precipitación)
+* [Temperatura](##-Temperatura-(Tmax-y-Tmin-2m-de-altura))
+* [Referencia y Datos Utilizada para la Generacion de Mapas](##Referencia-y-Datos-Utilizada-para-la-Generacion-de-Mapas)
   
 ## Generales
 Esta iniciativa tiene como objetivo difundir información climatológica e hidrológica de Panamá con fines educativos y profesionales. Los datos presentados mediante mapas ofrecen una perspectiva del comportamiento temporal y espacial del país, a escala mensual, de variables como precipitación, temperatura del aire a 2 metros de altura y otras. La información utilizada es generada y administrada por el Climate Hazards Center del Departamento de Geografía de la Universidad de California en Santa Bárbara, EE. UU. Este proyecto es financiado en colaboración por FEWS NET (Red de Sistemas de Alerta Temprana contra la Hambruna), una iniciativa de la Agencia de los Estados Unidos para el Desarrollo Internacional (en inglés, USAID), y el Centro de Observación y Ciencia de los Recursos Terrestres del Servicio Geológico de los Estados Unidos (en inglés, USGS EROS). A continuación, se presenta una descripción de la información mensual incluida, como guía para su correcta interpretación:
