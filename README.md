@@ -98,7 +98,7 @@ Donde:
 
 - (c) Resumen mensual por provincia y país ("AirTemp_Summary_A_B@C_D_Mes_Año"): A_B, temperatura promedio por pentadas en el país (Tprom, Tmax y Tmin), línea negra representa el promedio móvil (3 pentadas). C_D, temperatura (Tprom) promedio mensual por provincia y temperatura promedio mensual vs. NC (normal climática: 1991–2020) para el mes analizado.
 
-- (d) Ranking de temperaturas, percentiles ("AirTemp_Tmean_Rank_Mes_Año"): comparación de períodos fríos y cálidos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basado en su posición por arriba (=>) o por debajo (<=) del % definido: más frío del registro (=> del 99%), $10^{th}$ más frío (=> del 90%), $20^{th}$ más frío (=> del 80%); normal, $35^{th}$ más frío (=> del 65%) y $35^{th}$ más cálido (<= del 65%); $20^{th}$ más cálido (<= del 80%), $10^{th}$ más cálido (<= del 90%) y más cálido del registro (<= del 99%).
+- (d) Ranking de temperaturas, percentiles ("AirTemp_Tprom_Rank_Mes_Año"): comparación de períodos fríos y cálidos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basado en su posición por arriba (=>) o por debajo (<=) del % definido: más frío del registro (=> del 99%), $10^{th}$ más frío (=> del 90%), $20^{th}$ más frío (=> del 80%); normal, $35^{th}$ más frío (=> del 65%) y $35^{th}$ más cálido (<= del 65%); $20^{th}$ más cálido (<= del 80%), $10^{th}$ más cálido (<= del 90%) y más cálido del registro (<= del 99%).
 <p align="center">
 $Temp_{i} = \frac{m}{n+1}$
 </p>
