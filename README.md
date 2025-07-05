@@ -1,6 +1,6 @@
 # Clima y Agua Panama (IG: pty_agua_clima)
 
-## Table of Contents
+## Tabla de Contenidos
 * [Generales](#Generales)
 * [Precipitación](#Precipitación)
 * [Temperatura (Tmax y Tmin, 2m de altura)](#Temperatura-Tmax-y-Tmin-2m-de-altura)
@@ -10,7 +10,7 @@
 Esta iniciativa tiene como objetivo difundir información climatológica e hidrológica de Panamá con fines educativos y profesionales. Los datos presentados mediante mapas ofrecen una perspectiva del comportamiento temporal y espacial del país, a escala mensual, de variables como precipitación, temperatura del aire a 2 metros de altura y otras. La información utilizada es generada y administrada por el Climate Hazards Center del Departamento de Geografía de la Universidad de California en Santa Bárbara, EE. UU. Este proyecto es financiado en colaboración por FEWS NET (Red de Sistemas de Alerta Temprana contra la Hambruna), una iniciativa de la Agencia de los Estados Unidos para el Desarrollo Internacional (en inglés, USAID), y el Centro de Observación y Ciencia de los Recursos Terrestres del Servicio Geológico de los Estados Unidos (en inglés, USGS EROS). A continuación, se presenta una descripción de la información mensual incluida, como guía para su correcta interpretación:
 
 ## Precipitación
-![Sum_Ppt_Apr_2025](https://github.com/user-attachments/assets/30989a4f-55a0-4441-9910-1f7f780ace8c)
+![Sum_Ppt_May_2025](https://github.com/jaime27ortega/Clima_Agua_Panama/blob/main/Mensual_Precipitacion_2025/05_May_2025/Sum_Ppt_May_2025.jpeg?raw=true)
 
 La variable climática precipitación/lluvia (mm) es el resultado de la combinación de observaciones satelitales —específicamente, imágenes infrarrojas de duración de nubes frías (Cold Cloud Duration, en inglés CCD)— con datos provenientes de estaciones pluviométricas disponibles a nivel global (entre 60° N–60° S y 180° O–180° E). Esta información se integra en una grilla con una resolución espacial de 0.05° (5.55 km), y está disponible desde 1981 hasta la actualidad. Las estimaciones de precipitación terrestre se presentan en intervalos temporales de cinco días (pentadas). Cada conjunto de datos se acompaña de mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **"Precipitation_2025"**):
 
@@ -72,7 +72,7 @@ $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precip
 $n$ Número total de años del período histórico ($n$ = 45).
 
 ## Temperatura (Tmax y Tmin, 2m de altura)
-![Ave_AirTemp_Tmean_Apr_2025](https://github.com/user-attachments/assets/25df4bc1-d1ef-49ec-9339-5f2b41b94888)
+![Ave_AirTemp_Tmean_May_2025](https://github.com/jaime27ortega/Clima_Agua_Panama/blob/main/Mensual_Temperatura_2025/05_May_2025/Ave_AirTemp_Tmean_May_2025.jpeg?raw=true)
 
 La variable climática temperatura (Tmax y Tmin, °C) es obtenida de la versión 5 (ERA5) del reanálisis atmosférico del Centro Europeo de Pronósticos Meteorológicos de Medio Plazo (ECMWF, por sus siglas en inglés), con una resolución original de 0.25° (27.8 km). Consecuentemente, la información es procesada y reducida por el Climate Hazards Center a una resolución de grilla de 0.05° (5.55 km). El área de cobertura de este producto oscila entre 60°S–70°N y está disponible desde 1981 hasta la actualidad. Las estimaciones de temperatura se presentan en intervalos temporales de 5 días (pentadas). Cada conjunto de datos se acompaña de mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de temperatura (ver carpeta **Temperatura_2025**):
 
