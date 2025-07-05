@@ -1,54 +1,54 @@
 # Clima y Agua Panama (IG: pty_agua_clima)
 
 ## Generales
-Esta iniciativa tiene como objetivo difundir información climatológica e hidrológica de Panamá con fines educativos y profesionales. Los datos presentados mediante mapas ofrecen una perspectiva del comportamiento temporal y espacial del país, a escala mensual, de variables como precipitación, temperatura del aire a 2 metros de altura y otros. La información utilizada es generada y administrada por el Climate Hazards Center del Departamento de Geografía de la Universidad de California en Santa Barbara, US. Este proyecto es financiado en colaboración por FEWS NET (la Red de Sistemas de Alerta Temprana contra la Hambruna), una iniciativa de la Agencia de los Estados Unidos para el Desarrollo Internacional (en ingles USAID), y el Centro de Observación y Ciencia de los Recursos Terrestres del Servicio Geológico de los Estados Unidos (en ingles USGS EROS). A continuación, se presenta una descripción de la información mensual incluida, como guía para su correcta interpretación:
+Esta iniciativa tiene como objetivo difundir información climatológica e hidrológica de Panamá con fines educativos y profesionales. Los datos presentados mediante mapas ofrecen una perspectiva del comportamiento temporal y espacial del país, a escala mensual, de variables como precipitación, temperatura del aire a 2 metros de altura y otras. La información utilizada es generada y administrada por el Climate Hazards Center del Departamento de Geografía de la Universidad de California en Santa Bárbara, EE. UU. Este proyecto es financiado en colaboración por FEWS NET (Red de Sistemas de Alerta Temprana contra la Hambruna), una iniciativa de la Agencia de los Estados Unidos para el Desarrollo Internacional (en inglés, USAID), y el Centro de Observación y Ciencia de los Recursos Terrestres del Servicio Geológico de los Estados Unidos (en inglés, USGS EROS). A continuación, se presenta una descripción de la información mensual incluida, como guía para su correcta interpretación:
 
 ## Precipitacion
 ![Sum_Ppt_Apr_2025](https://github.com/user-attachments/assets/30989a4f-55a0-4441-9910-1f7f780ace8c)
 
-La variable climática precipitación/lluvia (mm) es el resultado de la combinación de observaciones satelitales, específicamente imágenes infrarrojas de duración de nubes frías (Cold Cloud Duration, en ingles CCD)— con datos provenientes de estaciones pluviométricas disponibles a nivel global (entre 60°N–60°S y 180°W–180°E). Esta información se integra en una grilla con una resolución espacial de 0.05° (5.55 km), y está disponible desde 1981 hasta la actualidad. Las estimaciones de precipitación terrestre se presentan en intervalos temporales cada 5 dias (pentadas). Cada conjunto de datos se acompaña con mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **Precipitation_2025**):
+La variable climática precipitación/lluvia (mm) es el resultado de la combinación de observaciones satelitales —específicamente, imágenes infrarrojas de duración de nubes frías (Cold Cloud Duration, en inglés CCD)— con datos provenientes de estaciones pluviométricas disponibles a nivel global (entre 60° N–60° S y 180° O–180° E). Esta información se integra en una grilla con una resolución espacial de 0.05° (5.55 km), y está disponible desde 1981 hasta la actualidad. Las estimaciones de precipitación terrestre se presentan en intervalos temporales de cinco días (pentadas). Cada conjunto de datos se acompaña de mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **"Precipitation_2025"**):
 
-- (a) Precipitacion acumnulada mensual del mes de analisis ($Ppt_{Mes}$, **"Sum_Ppt_Mes_Año"**): total de precipitacion (mm) registrado en el mes de interes.
+- (a) Precipitación acumulada mensual del mes de análisis ($Ppt_{Mes}$, "Sum_Ppt_Mes_Año"): total de precipitación (mm) registrado en el mes de interés.
 <p align="center">
 $Ppt_{Mes} = \sum_{i=1}^{n} Ppt_{p_{i}}$
 </p>
 
 Donde: 
 
-$Ppt_{p_{i}}$ es la precipitacion registrada en la pentada $i$ del mes de interes, mm.
+$Ppt_{p_{i}}$ es la precipitación registrada en la pentada $i$ del mes de interés, mm.
 
 $n$ es la número de pentadas completas (usualmente 6 por mes).
 
-- (b) Precipitacion acumnulada mensual de la normal climatica ($Ppt_{NC (1991-2020)}$, **"Normal_Ppt_Mes_Año"**): total promedio de precipitacion (mm) registrado en el periodo 1991-2020 para el mes de interes.
+- (b) Precipitación acumulada mensual de la normal climática ($Ppt_{NC (1991-2020)}$, "Normal_Ppt_Mes_Año"): total promedio de precipitación (mm) registrado en el período 1991–2020 para el mes de interés.
 <p align="center">
 $Ppt_{NC (1991-2020)} = \sum_{i=1}^{n} Ppt_{p_{i}}$
 </p>
 
 Donde: 
 
-$Ppt_{p_{i}}$ es la precipitacion promedio registrada en la pentada $i$ del mes de interes durante el periodo 1991-2020, mm.
+$Ppt_{p_{i}}$ es la precipitación promedio registrada en la pentada $i$ del mes de interés durante el período 1991–2020, mm.
 
 $n$ es la número de pentadas completas (usualmente 6 por mes).
 
-- (c) Diferencia de precipitacion mensual ($Ppt_{Diff}$, **"Diff_Ppt_Mes_Año"**): diferencia de precipitacion entre el acumulado mensual y la normal climatica para el mes de interes.
+- (c) Diferencia de precipitación mensual ($Ppt_{Diff}$, "Diff_Ppt_Mes_Año"): diferencia de precipitación entre el acumulado mensual y la normal climática para el mes de interés.
 <p align="center">
 $Ppt_{Diff} = Ppt_{Mes}-Ppt_{NC (1991-2020)}$
 </p>
 
 Donde:
 
-$Ppt_{Mes}$ es el total de precipitacion (mm) registrado en el mes de interes, mm.
+$Ppt_{Mes}$ es el total de precipitación (mm) registrado en el mes de interes, mm.
 
-$Ppt_{NC (1991-2020)}$ es el total promedio de precipitacion registrado en el periodo 1991-2020 para el mes de interes, mm.
+$Ppt_{NC (1991-2020)}$ es el total promedio de precipitación registrado en el período 1991–2020 para el mes de interés, mm.
 
-- (d) Anomalia de precipitacion mensual ($Ppt_{Anom}$, **"Anomalia_Mes"**): desviacion promedio (positiva: por arriba-humedo de la NC y negativa: por debajo-seco de la NC) de la diferencia de precipitacion $(Ppt_{Diff})$ en comparacion con la normal climatica (1991-2020).
+- (d) Anomalía de precipitación mensual ($Ppt_{Anom}$, "Anomalia_Mes"): desviación promedio (positiva: por arriba – húmedo – de la NC; y negativa: por debajo – seco – de la NC) de la diferencia de precipitación ($Ppt_{Diff}$) en comparación con la normal climática (1991–2020).
 <p align="center">
 $Ppt_{Anom}$ = +/- $Ppt_{Diff_{Promedio}}$
 </p>
 
 Donde:
 
-+/- $Ppt_{Diff_{Promedio}}$ es diferencia entre el acumulado mensual y la normal climatica para el mes de interes, mm.
++/- $Ppt_{Diff_{Promedio}}$ es diferencia entre el acumulado mensual y la normal climática para el mes de interés, mm.
 
 - (e) Resumen mensual por provincia y pais (**"Ppt_Summary_A_B@C_D"**): A_B, precipitacion por pentadas (acumulado de 5 dias) en el pais, total de precipitacion acumulado en el pais desde el primer mes del año (Enero) hasta el mes de analisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climatica (NC: 1991-2020) para el mismo periodo analizado. C_D, total acumulado de precipitacion por provincia desde el primer mes del año (Enero) hasta el mes de analisis y comparacion del total acumulado de precipitacion por provincia (mes de interes) vs la NC.
 
