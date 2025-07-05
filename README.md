@@ -108,6 +108,8 @@ $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor temper
 
 $n$ Número total de años del periodo histórico ($n$ = 45).
 
+- (e) Temperaturas promedio, variacion temporal (**"Temp_Prom_Mes__Año"**): media movil (n= 3) de las temperaturas pentadal promedio (Tprom, n= 6 por mes) en el año de analisis desde el primer mes del año (Enero) hasta el mes de analisis. Adicionalmente, se presenta los promedios del 1981-2010, 1991-2020, 2023, y 2024. 
+
 ## Referencia y Datos Utilizada para la Generacion de Mapas
 - Funk, C., Peterson, P., Landsfeld, M. et al. The climate hazards infrared precipitation with stations—a new environmental record for monitoring extremes. Sci Data 2, 150066 (2015). https://doi.org/10.1038/sdata.2015.66
 - Precipitacion (CHIRPS 3.0): https://data.chc.ucsb.edu/products/CHIRPS/v3.0/pentads/latam/tifs/
