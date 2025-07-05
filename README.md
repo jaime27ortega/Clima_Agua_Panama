@@ -50,9 +50,9 @@ Donde:
 
 +/- $Ppt_{Diff_{Promedio}}$ es diferencia entre el acumulado mensual y la normal climática para el mes de interés, mm.
 
-- (e) Resumen mensual por provincia y pais (**"Ppt_Summary_A_B@C_D"**): A_B, precipitacion por pentadas (acumulado de 5 dias) en el pais, total de precipitacion acumulado en el pais desde el primer mes del año (Enero) hasta el mes de analisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climatica (NC: 1991-2020) para el mismo periodo analizado. C_D, total acumulado de precipitacion por provincia desde el primer mes del año (Enero) hasta el mes de analisis y comparacion del total acumulado de precipitacion por provincia (mes de interes) vs la NC.
+- (e) Resumen mensual por provincia y país ("Ppt_Summary_A_B@C_D"): A_B, precipitación por pentadas (acumulado de 5 días) en el país; total de precipitación acumulada en el país desde el primer mes del año (enero) hasta el mes de análisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climática (NC: 1991–2020) para el mismo período analizado. C_D, total acumulado de precipitación por provincia desde el primer mes del año (enero) hasta el mes de análisis, y comparación del total acumulado de precipitación por provincia (mes de interés) vs la NC.
 
-- (f) Ranking de precipitacion, percentiles (**"Ppt_Rank_Mes_Año"**): comparacion de periodos humedos y secos con rescepto al periodo historico, en este caso 45 años (1981-2025), utilizando percetiles (metodo Weibull para clasificacion de rankings). Clasificacion o pocisiones (rankings) de zonas/regiones basado en sus posicion por arriba (=>) o por debajo (<=) del % definido: mas humedo del registro (=> del 99%), 10th mas humedo (=> del 90%), 20th mas humedo (=> del 80%); normal, 35th mas humedo (=> del 65%) y 35th mas seco (<= del 65%); 20th mas seco (<= del 80%), 10th mas seco (<= del 90%), y mas seco del registro (<= del 99%).
+- (f) Ranking de precipitación, percentiles ("Ppt_Rank_Mes_Año"): comparación de períodos húmedos y secos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basada en su posición por arriba (≥) o por debajo (≤) del % definido: más húmedo del registro (≥ 99%), $10^{th}$ más húmedo (≥ 90%), $20^{th}$  más húmedo (≥ 80%); normal, $35^{th}$  más húmedo (≥ 65%) y $35^{th}$ más seco (≤ 65%); $20^{th}$  más seco (≤ 80%), $10^{th}$  más seco (≤ 90%) y más seco del registro (≤ 99%).
 
 <p align="center">
 $P_{i} = \frac{m}{n+1}$
@@ -64,7 +64,7 @@ $P_{i}$ es el percentil correspondiente al valor de precipitación mensual ${i}$
 
 $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precipitación.
 
-$n$ Número total de años del periodo histórico ($n$ = 45).
+$n$ Número total de años del período histórico ($n$ = 45).
 
 ## Temperatura (Tmax y Tmin, 2m de altura)
 ![Ave_AirTemp_Tmean_Apr_2025](https://github.com/user-attachments/assets/25df4bc1-d1ef-49ec-9339-5f2b41b94888)
