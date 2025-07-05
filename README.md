@@ -72,7 +72,7 @@ $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precip
 $n$ Número total de años del período histórico ($n$ = 45).
 
 ## Temperatura (Tmax y Tmin, 2m de altura)
-![Ave_AirTemp_Tmean_May_2025](https://github.com/jaime27ortega/Clima_Agua_Panama/blob/main/Mensual_Temperatura_2025/05_May_2025/Ave_AirTemp_Tmean_May_2025.jpeg?raw=true)
+![Ave_AirTemp_Tprom_May_2025](https://github.com/jaime27ortega/Clima_Agua_Panama/blob/main/Mensual_Temperatura_2025/05_May_2025/Ave_AirTemp_Tprom_May_2025.jpeg?raw=true)
 
 La variable climática temperatura (Tmax y Tmin, °C) es obtenida de la versión 5 (ERA5) del reanálisis atmosférico del Centro Europeo de Pronósticos Meteorológicos de Medio Plazo (ECMWF, por sus siglas en inglés), con una resolución original de 0.25° (27.8 km). Consecuentemente, la información es procesada y reducida por el Climate Hazards Center a una resolución de grilla de 0.05° (5.55 km). El área de cobertura de este producto oscila entre 60°S–70°N y está disponible desde 1981 hasta la actualidad. Las estimaciones de temperatura se presentan en intervalos temporales de 5 días (pentadas). Cada conjunto de datos se acompaña de mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de temperatura (ver carpeta **Temperatura_2025**):
 
