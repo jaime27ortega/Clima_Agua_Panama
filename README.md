@@ -14,7 +14,7 @@ Esta iniciativa tiene como objetivo difundir información climatológica e hidro
 
 La variable climática precipitación/lluvia (mm) es el resultado de la combinación de observaciones satelitales —específicamente, imágenes infrarrojas de duración de nubes frías (Cold Cloud Duration, en inglés CCD)— con datos provenientes de estaciones pluviométricas disponibles a nivel global (entre 60° N–60° S y 180° O–180° E). Esta información se integra en una grilla con una resolución espacial de 0.05° (5.55 km), y está disponible desde 1981 hasta la actualidad. Las estimaciones de precipitación terrestre se presentan en intervalos temporales de cinco días (pentadas) a una resolusion reducida de 0.01° (1.11 km, metodo de interpolacion: bilinear). Cada conjunto de datos se acompaña de mapas, gráficos y descripciones detalladas, organizados en un archivo PDF identificado como **"Report_Mes_Año"**, para facilitar su consulta y análisis. A continuación, se describen los componentes generados para la variable de precipitación (ver carpeta **"Precipitation_2025"**):
 
-- (a) Precipitación acumulada mensual del mes de análisis ($Ppt_{Mes}$, "Sum_Ppt_Mes_Año"): total de precipitación (mm) registrado en el mes de interés.
+- (a) Precipitación acumulada mensual del mes de análisis ($Ppt_{Mes}$, **"Sum_Ppt_Mes_Año"**): total de precipitación (mm) registrado en el mes de interés.
 <p align="center">
 $Ppt_{Mes} = \sum_{i=1}^{n} Ppt_{p_{i}}$
 </p>
@@ -25,7 +25,7 @@ $Ppt_{p_{i}}$ es la precipitación registrada en la pentada $i$ del mes de inter
 
 $n$ es la número de pentadas completas (usualmente 6 por mes).
 
-- (b) Precipitación acumulada mensual de la normal climática ($Ppt_{NC (1991-2020)}$, "Normal_Ppt_Mes_Año"): total promedio de precipitación (mm) registrado en el período 1991–2020 para el mes de interés.
+- (b) Precipitación acumulada mensual de la normal climática ($Ppt_{NC (1991-2020)}$, **"Normal_Ppt_Mes_Año"**): total promedio de precipitación (mm) registrado en el período 1991–2020 para el mes de interés.
 <p align="center">
 $Ppt_{NC (1991-2020)} = \sum_{i=1}^{n} Ppt_{p_{i}}$
 </p>
@@ -36,7 +36,7 @@ $Ppt_{p_{i}}$ es la precipitación promedio registrada en la pentada $i$ del mes
 
 $n$ es la número de pentadas completas (usualmente 6 por mes).
 
-- (c) Diferencia de precipitación mensual ($Ppt_{Diff}$, "Diff_Ppt_Mes_Año"): diferencia de precipitación entre el acumulado mensual y la normal climática para el mes de interés.
+- (c) Diferencia de precipitación mensual ($Ppt_{Diff}$, **"Diff_Ppt_Mes_Año"**): diferencia de precipitación entre el acumulado mensual y la normal climática para el mes de interés.
 <p align="center">
 $Ppt_{Diff} = Ppt_{Mes}-Ppt_{NC (1991-2020)}$
 </p>
@@ -47,7 +47,7 @@ $Ppt_{Mes}$ es el total de precipitación (mm) registrado en el mes de interes, 
 
 $Ppt_{NC (1991-2020)}$ es el total promedio de precipitación registrado en el período 1991–2020 para el mes de interés, mm.
 
-- (d) Anomalía de precipitación mensual ($Ppt_{Anom}$, "Anomalia_Mes"): desviación promedio (positiva: por arriba – húmedo – de la NC; y negativa: por debajo – seco – de la NC) de la diferencia de precipitación ($Ppt_{Diff}$) en comparación con la normal climática (1991–2020).
+- (d) Anomalía de precipitación mensual ($Ppt_{Anom}$, **"Anomalia_Mes"**): desviación promedio (positiva: por arriba – húmedo – de la NC; y negativa: por debajo – seco – de la NC) de la diferencia de precipitación ($Ppt_{Diff}$) en comparación con la normal climática (1991–2020).
 <p align="center">
 $Ppt_{Anom}$ = +/- $Ppt_{Diff_{Promedio}}$
 </p>
@@ -56,9 +56,9 @@ Donde:
 
 +/- $Ppt_{Diff_{Promedio}}$ es diferencia entre el acumulado mensual y la normal climática para el mes de interés, mm.
 
-- (e) Resumen mensual por provincia y país ("Ppt_Summary_A_B@C_D"): A_B, precipitación por pentadas (acumulado de 5 días) en el país; total de precipitación acumulada en el país desde el primer mes del año (enero) hasta el mes de análisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climática (NC: 1991–2020) para el mismo período analizado. C_D, total acumulado de precipitación por provincia desde el primer mes del año (enero) hasta el mes de análisis, y comparación del total acumulado de precipitación por provincia (mes de interés) vs la NC.
+- (e) Resumen mensual por provincia y país (**"Ppt_Summary_A_B@C_D"**): A_B, precipitación por pentadas (acumulado de 5 días) en el país; total de precipitación acumulada en el país desde el primer mes del año (enero) hasta el mes de análisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climática (NC: 1991–2020) para el mismo período analizado. C_D, total acumulado de precipitación por provincia desde el primer mes del año (enero) hasta el mes de análisis, y comparación del total acumulado de precipitación por provincia (mes de interés) vs la NC.
 
-- (f) Ranking de precipitación, percentiles ("Ppt_Rank_Mes_Año"): comparación de períodos húmedos y secos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basada en su posición por arriba (≥) o por debajo (≤) del % definido: más húmedo del registro (≥ 99%), $10^{th}$ más húmedo (≥ 90%), $20^{th}$  más húmedo (≥ 80%); normal, $35^{th}$  más húmedo (≥ 65%) y $35^{th}$ más seco (≤ 65%); $20^{th}$  más seco (≤ 80%), $10^{th}$  más seco (≤ 90%) y más seco del registro (≤ 99%).
+- (f) Ranking de precipitación, percentiles (**"Ppt_Rank_Mes_Año"**): comparación de períodos húmedos y secos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basada en su posición por arriba (≥) o por debajo (≤) del % definido: más húmedo del registro (≥ 99%), $10^{th}$ más húmedo (≥ 90%), $20^{th}$  más húmedo (≥ 80%); normal, $35^{th}$  más húmedo (≥ 65%) y $35^{th}$ más seco (≤ 65%); $20^{th}$  más seco (≤ 80%), $10^{th}$  más seco (≤ 90%) y más seco del registro (≤ 99%).
 <p align="center">
 $P_{i} = \frac{m}{n+1}$
 </p>
@@ -96,9 +96,9 @@ Donde:
 
 +/- $Temp_{Diff_{Promedio}}$ es diferencia entre la temperatura (Tprom, Tmax, y Tmin) mensual y la normal climática para el mes de interes, °C.
 
-- (c) Resumen mensual por provincia y país ("AirTemp_Summary_A_B@C_D_Mes_Año"): A_B, temperatura promedio por pentadas en el país (Tprom, Tmax y Tmin), línea negra representa el promedio móvil (3 pentadas). C_D, temperatura (Tprom) promedio mensual por provincia y temperatura promedio mensual vs. NC (normal climática: 1991–2020) para el mes analizado.
+- (c) Resumen mensual por provincia y país (**"AirTemp_Summary_A_B@C_D_Mes_Año"**): A_B, temperatura promedio por pentadas en el país (Tprom, Tmax y Tmin), línea negra representa el promedio móvil (3 pentadas). C_D, temperatura (Tprom) promedio mensual por provincia y temperatura promedio mensual vs. NC (normal climática: 1991–2020) para el mes analizado.
 
-- (d) Ranking de temperaturas, percentiles ("AirTemp_Tprom_Rank_Mes_Año"): comparación de períodos fríos y cálidos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basado en su posición por arriba (=>) o por debajo (<=) del % definido: más frío del registro (=> del 99%), $10^{th}$ más frío (=> del 90%), $20^{th}$ más frío (=> del 80%); normal, $35^{th}$ más frío (=> del 65%) y $35^{th}$ más cálido (<= del 65%); $20^{th}$ más cálido (<= del 80%), $10^{th}$ más cálido (<= del 90%) y más cálido del registro (<= del 99%).
+- (d) Ranking de temperaturas, percentiles (**"AirTemp_Tprom_Rank_Mes_Año"**): comparación de períodos fríos y cálidos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basado en su posición por arriba (=>) o por debajo (<=) del % definido: más frío del registro (=> del 99%), $10^{th}$ más frío (=> del 90%), $20^{th}$ más frío (=> del 80%); normal, $35^{th}$ más frío (=> del 65%) y $35^{th}$ más cálido (<= del 65%); $20^{th}$ más cálido (<= del 80%), $10^{th}$ más cálido (<= del 90%) y más cálido del registro (<= del 99%).
 <p align="center">
 $Temp_{i} = \frac{m}{n+1}$
 </p>
