@@ -1,4 +1,4 @@
-# Clima y Agua Panama (IG: pty_agua_clima)
+# Clima y Agua Panamá (IG: pty_agua_clima)
 
 ## Tabla de Contenidos
 * [Generales](#Generales)
