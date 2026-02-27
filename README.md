@@ -47,7 +47,20 @@ $Ppt_{Mes}$ es el total de precipitación (mm) registrado en el mes de interes, 
 
 $Ppt_{NC (1991-2020)}$ es el total promedio de precipitación registrado en el período 1991–2020 para el mes de interés, mm.
 
-- (d) Anomalía de precipitación mensual ($Ppt_{Anom}$, **"Anomalia_Mes"**): desviación promedio (positiva: por arriba – húmedo – de la NC; y negativa: por debajo – seco – de la NC) de la diferencia de precipitación ($Ppt_{Diff}$) en comparación con la normal climática (1991–2020).
+- (d) Porcentaje promedio de precipitación (mm) ($Ppt_{Pct}$, **"Pct_Ppt_Mes_Año"**): porcentaje de precipitación total acumulado dividida por la normal climática para el mes de interés.
+<p align="center">
+$Ppt_{Pct} = \frac{Ppt_{Mes}}{Ppt_{NC (1991-2020)}}*100$
+</p>
+
+Donde:
+
+$Ppt_{Mes}$ es el total de precipitación (mm) registrado en el mes de interes, mm.
+
+$Ppt_{NC (1991-2020)}$ es el total promedio de precipitación registrado en el período 1991–2020 para el mes de interés, mm.
+
+La clasificación de zonas/regiones se basa en el porcentaje de la precipitación mensual con respecto al promedio climatológico (1991–2020), según los siguientes umbrales: precipitacion por debajo del promedio (≤ 75%), precipitacion cercana al  Muy por debajo del promedio (> 1% y ≤ 10%) y precipitacion por arriba del promedio (>125%).
+
+- (e) Anomalía de precipitación mensual ($Ppt_{Anom}$, **"Anomalia_Mes"**): desviación promedio (positiva: por arriba – húmedo – de la NC; y negativa: por debajo – seco – de la NC) de la diferencia de precipitación ($Ppt_{Diff}$) en comparación con la normal climática (1991–2020).
 <p align="center">
 $Ppt_{Anom}$ = +/- $Ppt_{Diff_{Promedio}}$
 </p>
@@ -56,9 +69,9 @@ Donde:
 
 +/- $Ppt_{Diff_{Promedio}}$ es diferencia entre el acumulado mensual y la normal climática para el mes de interés, mm.
 
-- (e) Resumen mensual por provincia y país (**"Ppt_Summary_A_B@C_D"**): A_B, precipitación por pentadas (acumulado de 5 días) en el país; total de precipitación acumulada en el país desde el primer mes del año (enero) hasta el mes de análisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climática (NC: 1991–2020) para el mismo período analizado. C_D, total acumulado de precipitación por provincia desde el primer mes del año (enero) hasta el mes de análisis, y comparación del total acumulado de precipitación por provincia (mes de interés) vs la NC.
+- (f) Resumen mensual por provincia y país (**"Ppt_Summary_A_B@C_D"**): A_B, precipitación por pentadas (acumulado de 5 días) en el país; total de precipitación acumulada en el país desde el primer mes del año (enero) hasta el mes de análisis. Adicionalmente, se presenta el total acumulado del año anterior y de la normal climática (NC: 1991–2020) para el mismo período analizado. C_D, total acumulado de precipitación por provincia desde el primer mes del año (enero) hasta el mes de análisis, y comparación del total acumulado de precipitación por provincia (mes de interés) vs la NC.
 
-- (f) Ranking de precipitación, percentiles (**"Ppt_Rank_Mes_Año"**): comparación de períodos húmedos y secos con respecto al período histórico, en este caso 45 años (1981–2025), utilizando percentiles (método Weibull para clasificación de rankings). Clasificación o posiciones (rankings) de zonas/regiones basada en su posición por arriba (≥) o por debajo (≤) del % definido: más húmedo del registro (≥ 99%), $10^{th}$ más húmedo (≥ 90%), $20^{th}$  más húmedo (≥ 80%); normal, $35^{th}$  más húmedo (≥ 65%) y $35^{th}$ más seco (≤ 65%); $20^{th}$  más seco (≤ 80%), $10^{th}$  más seco (≤ 90%) y más seco del registro (≤ 99%).
+- (g) Ranking de precipitación, percentiles (**"Ppt_Rank_Mes_Año"**): comparación de períodos húmedos y secos con respecto al período histórico, en este caso 46 años (1981–2026), utilizando percentiles (método Weibull para clasificación de rankings). 
 <p align="center">
 $P_{i} = \frac{m}{n+1}$
 </p>
@@ -69,7 +82,9 @@ $P_{i}$ es el percentil correspondiente al valor de precipitación mensual ${i}$
 
 $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precipitación.
 
-$n$ Número total de años del período histórico ($n$ = 45).
+$n$ Número total de años del período histórico ($n$ = 46).
+
+La clasificación de zonas/regiones se basa en su posición relativa dentro de la distribución histórica, según los siguientes umbrales percentílicos: Más seco del registro (≤ 1%), Muy por debajo del promedio (> 1% y ≤ 10%), Por debajo del promedio (> 10% y ≤ 33%), Cercano al promedio (> 33% y ≤ 66%), Por encima del promedio (> 66% y ≤ 90%), Muy por encima del promedio (> 90% y ≤ 99%) y Más húmedo del registro (≥ 99%).
 
 ## Temperatura (Tmax y Tmin, 2m de altura)
 ![Ave_AirTemp_Tprom_Sep_2025](https://github.com/jaime27ortega/Clima_Agua_Panama/blob/main/Temperatura/2025/09_Sep/Ave_AirTemp_Tprom_Sep_2025.jpeg?raw=true)
