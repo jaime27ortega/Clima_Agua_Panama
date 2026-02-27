@@ -84,7 +84,7 @@ $m$ es la posición (ranking) del valor ${i}$ al ordenar de mayor a menor precip
 
 $n$ Número total de años del período histórico ($n$ = 46).
 
-La clasificación de zonas/regiones se basa en su posición relativa dentro de la distribución histórica, según los siguientes umbrales percentílicos: Más seco del registro (≤ 1%), Muy por debajo del promedio (> 1% y ≤ 10%), Por debajo del promedio (> 10% y ≤ 33%), Cercano al promedio (> 33% y ≤ 66%), Por encima del promedio (> 66% y ≤ 90%), Muy por encima del promedio (> 90% y ≤ 99%) y Más húmedo del registro (≥ 99%).
+La clasificación de zonas/regiones se basa en su posición relativa dentro de la distribución histórica, según los siguientes umbrales: Más seco del registro (≤ 1%), Muy por debajo del promedio (> 1% y ≤ 10%), Por debajo del promedio (> 10% y ≤ 33%), Cercano al promedio (> 33% y ≤ 66%), Por encima del promedio (> 66% y ≤ 90%), Muy por encima del promedio (> 90% y ≤ 99%) y Más húmedo del registro (≥ 99%).
 
 ## Temperatura (Tmax y Tmin, 2m de altura)
 ![Ave_AirTemp_Tprom_Sep_2025](https://github.com/jaime27ortega/Clima_Agua_Panama/blob/main/Temperatura/2025/09_Sep/Ave_AirTemp_Tprom_Sep_2025.jpeg?raw=true)
