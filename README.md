@@ -1,4 +1,8 @@
 # Clima y Agua Centroamérica
+<p align="center">
+  <img width="458" height="341" alt="CAC_Logo" src="https://github.com/user-attachments/assets/49c0e288-b156-41e8-9e71-7f34fa19288b" />
+</p>
+
 
 ## Tabla de Contenidos
 * [Generales](#Generales)
@@ -7,7 +11,7 @@
 * [Referencia y Datos Utilizada para la Generacion de Mapas](#Referencia-y-Datos-Utilizada-para-la-Generacion-de-Mapas)
   
 ## Generales
-Esta iniciativa tiene como objetivo divulgar información climatológica e hidrológica de Panamá y Centroamérica con fines educativos y profesionales. Los datos se presentan a través de mapas que ofrecen una perspectiva de la variabilidad espacio-temporal del país y de la región a escala mensual, para variables como precipitación y temperatura del aire a 2 metros de altura. La información utilizada es generada y administrada por el Climate Hazards Center del Departamento de Geografía de la Universidad de California en Santa Bárbara, EE. UU. Este proyecto es financiado en colaboración por FEWS NET (Red de Sistemas de Alerta Temprana contra la Hambruna), una iniciativa de la Agencia de los Estados Unidos para el Desarrollo Internacional (en inglés, USAID), y el Centro de Observación y Ciencia de los Recursos Terrestres del Servicio Geológico de los Estados Unidos (en inglés, USGS EROS). A continuación, se presenta una descripción de la información mensual incluida, como guía para su correcta interpretación:
+Esta repositorio tiene como objetivo divulgar información climatológica e hidrológica de Panamá y Centroamérica con fines educativos y profesionales. Los datos se presentan a través de mapas que ofrecen una perspectiva de la variabilidad espacio-temporal del país y de la región a escala mensual, para variables como precipitación y temperatura del aire a 2 metros de altura. La información utilizada es generada y administrada por el Climate Hazards Center del Departamento de Geografía de la Universidad de California en Santa Bárbara, EE. UU. Este proyecto es financiado en colaboración por FEWS NET (Red de Sistemas de Alerta Temprana contra la Hambruna), una iniciativa de la Agencia de los Estados Unidos para el Desarrollo Internacional (en inglés, USAID), y el Centro de Observación y Ciencia de los Recursos Terrestres del Servicio Geológico de los Estados Unidos (en inglés, USGS EROS). A continuación, se presenta una descripción de la información mensual incluida, como guía para su correcta interpretación:
 
 ## Precipitación
 ![Sum_Ppt_May_2026](https://github.com/jaime27ortega/Clima_Agua_Panama/blob/main/Precipitacion/2026/05_MAY_2026/Sum_Ppt_May_2026.jpeg?raw=true)
